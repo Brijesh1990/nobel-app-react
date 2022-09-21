@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+function Add() {
+    let a = parseInt(prompt('Enter a value'));
+    let b = parseInt(prompt('Enter b value'));
+    let c = a+b;
+    alert('The additions of proggrames is :' + c)
 }
 
-export default App;
+function Subs() {
+    
+    let a = parseInt(prompt('Enter a value'));
+    let b = parseInt(prompt('Enter b value'));
+    let c = a - b;
+    alert('The substraction  of proggrames is :' + c)
+}
+
+export { Add,Subs }

@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(10, 0, 0, 0.5);
+}
+
+#btn {
+    width: 40%;
+    height: auto;
+    margin: auto;
+    padding: 15px;
+    margin-left: 30%;
+    margin-top: 5%;
+}
